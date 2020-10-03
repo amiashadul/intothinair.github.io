@@ -1,0 +1,146 @@
+*{box-sizing: border-box;}
+
+@font-face {
+   font-family: HelveticaNeue;
+   src: url("../fonts/HelveticaNeue.ttf");
+}
+
+body{
+	background-image: url(../images/bg_04.jpg);
+	position: relative;
+	font-family: HelveticaNeue;
+}
+
+.nav{
+	background-image: url(../images/bg_nav_05.jpg);
+	background-repeat: repeat-x;
+	height: 40px;
+	width: 820px;
+	margin: 30px auto;
+	position: relative;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 4px 8px;
+    font: #3c3c3c;
+    font-size: 18px;
+}
+.navbar {
+    background-image: url(../images/header_bg_07.jpg);
+    background-repeat: repeat-x;
+    height: 140px;
+    width: 820px;
+    margin: -21px auto;
+    position: relative;
+}
+img.logo1 {
+    padding-left: 34px;
+    padding-top: 30px;
+}
+img.logo2 {
+    /* padding-right: 0px; */
+    /* margin-right: 0px; */
+    padding-top: 55px;
+    padding-left: 272px;
+    /* float: left; */
+    position: absolute;
+}
+.hr1 {
+    padding-top: 82px;
+    position: relative;
+    margin-top: 112;
+    margin: 0px auto;
+    z-index: -1;
+    width: 820px;
+}
+.hr2 {
+    padding-top: 50px;
+    position: relative;
+    margin-top: 112;
+    margin: 0px auto;
+    z-index: -1;
+    width: 820px;
+}
+
+.content {
+    width: 820px;
+    /* float: left; */
+    padding-top: 55px;
+    margin: 0px auto;
+    height: 370px;
+}
+
+.content-img img{
+	float: left;
+}
+
+.content-text {
+    padding-left: 50px;
+    float: left;
+    position: relative;
+    width: 465px;
+}
+.content-text h2 {
+    color: #3c3c3c;
+    font-size: 30px;
+}
+.content-text p{
+    font-size: 14px;
+    color: #585858;
+}
+
+.sub-content {
+    position: relative;
+    margin: 0px auto;
+    width: 820px;
+    padding-top: -25px;
+}
+.map {
+    width: 230px;
+    position: relative;
+    float: left;
+    font-size: 14px;
+    /* color: #dfdfdf; */
+}
+.map ul {
+    list-style-type: none;
+    color: white;
+}
+.map ul li{
+	font-size: 14px;
+	color: #dfdfdf;
+}
+
+.about {
+    color: white;
+    width: 265px;
+    float: left;
+    text-align: justify;
+}
+.contact {
+    width: 270px;
+    float: left;
+    color: white;
+    margin-left: 55px;
+    text-align: justify;
+}
+
+.sub-content p{
+    font-size: 14px;
+    color: #dfdfdf;
+}
+.footer {
+    position: relative;
+    /* width: 820px; */
+    height: 110px;
+    margin: 0px auto;
+    /* float: right; */
+    text-align: center;
+    padding-top: 215px;
+    padding-bottom: 75px;
+}
+.footer p {
+    font-size: 20px;
+    color: #c3c3c3;
+}
